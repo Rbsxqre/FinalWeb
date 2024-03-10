@@ -1,0 +1,342 @@
+body {
+    background-image: url('htmlbackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container h2 {
+    color: #ff69b4;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ffd700;
+}
+
+.alert {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+header {
+    background-color: #ffc0cb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+nav {
+    background-color: #ff69b4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+section {
+    margin: 30px auto; /* Center the section horizontally */
+    max-width: 600px; /* Limit the width of the section */
+    text-align: left;
+}
+
+section h2 {
+    color: #ff69b4;
+    text-align: center; /* Center the heading within the section */
+}
+
+section p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #ffc0cb;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* This centers the image horizontally */
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    display: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#scrollToTop:hover {
+    background-color: #ffd700;
+}
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    align-items: center;
+}
+
+.contact-form label,
+.contact-form textarea,
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"] {
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #ffd700;
+}
+
+.advice {
+    font-style: italic;
+    color: #666;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+header {
+    background-color: #ffc0cb;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Center the text */
+}
+
+nav {
+    background-color: #ff69b4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+section {
+    margin: 30px auto; /* Center the section horizontally */
+    max-width: 600px; /* Limit the width of the section */
+    text-align: left;
+}
+
+section h2 {
+    color: #ff69b4;
+    text-align: center; /* Center the heading within the section */
+}
+
+.skill {
+    margin-bottom: 20px; /* Add space between skills */
+}
+
+.skill img {
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto 10px; /* Center the image horizontally and add space below */
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.left-image {
+    float: left;
+    width: 45%; /* Adjust the width as needed */
+    margin-right: 5%; /* Add some space between images */
+}
+
+.right-image {
+    float: right;
+    width: 45%; /* Adjust the width as needed */
+    margin-left: 5%; /* Add some space between images */
+}
+
+/* Add styles for the comment form */
+#comment {
+    margin-bottom: 20px;
+}
+
+#comment form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#comment label {
+    margin-bottom: 10px;
+}
+
+#comment input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#comment button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#comment button[type="submit"]:hover {
+    background-color: #ffd700;
+}
+
+/* Update the CSS for logout button placement */
+#logout-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+#logout-button {
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
